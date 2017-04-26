@@ -1,0 +1,229 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-backface-visibility: hidden;
+}
+@font-face {
+	font-family:'rzbgq'; 
+	src: 
+	url('../font/锐字逼格青春体简2.0.TTF');
+}
+body{
+	width:100%;
+	height:100%;
+	overflow: hidden;
+	font:18px "rzbgq";
+	color:#d7d7d7;
+	background: url("../img/07-bg.png") no-repeat;
+}
+input,button{
+	outline: none;
+	border: none;
+}
+img{
+	vertical-align: middle;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#333333;
+}
+.lf{
+	float:left
+}
+.rt{
+	float: right;
+}
+.clear{
+	overflow: hidden;
+}
+.textcenter{
+	text-align: center;
+}
+#container{
+	width:880px;
+	margin:194px auto 0;
+	opacity: 0;
+}
+#topBtn li{
+	width: 50px;
+	height: 50px;
+	margin: 12px 0 6px 0;
+}
+#topBtn li.delete{
+	margin-right:90px;
+	background: url("../img/07-ssss_09.png") no-repeat;
+}
+#topBtn li.delete:active{
+	background: url("../img/07-ssss_20.png") no-repeat;
+}
+#topBtn li.takePhoto{
+	background: url("../img/07-ssss_07.png") no-repeat;
+}
+#topBtn li.takePhoto:active{
+	background: url("../img/07-ssss_19.png") no-repeat;
+}
+#topBtn li.takePhoto.close{
+	background: url("../img/07-ssss_19.png") no-repeat;
+}
+#topBtn li.addItem.fit{
+	background: url("../img/07-ssss_03.png") no-repeat;
+}
+#topBtn li.addItem.fit:active{
+	background: url("../img/07-ssss_15.png") no-repeat;
+}
+#topBtn li.addItem.fit.close{
+	background: url("../img/07-ssss_15.png") no-repeat;
+}
+#topBtn li.addItem.add{
+	background: url("../img/07-ssss_05.png") no-repeat;
+}
+#topBtn li.addItem.add:active{
+	background: url("../img/07-ssss_17.png") no-repeat;
+}
+#topBtn li.input.add.close{
+	background: url("../img/07-ssss_17.png") no-repeat;
+}
+#topBtn li{
+	margin-right: 12px;
+}
+#main{
+	width: 100%;
+	height: 400px;
+}
+#main div.leftBtn,#main div.rightBtn{
+	width: 23px;
+	height: 62px;
+	margin-top:169px;
+	opacity: 0;
+}
+#main div.leftBtn{
+	margin-right: 45px;
+	background: url("../img/07-ssss_37.png") no-repeat;
+}
+#main div.leftBtn:active{
+	background: url("../img/07-ssss_44.png") no-repeat;
+}
+#main div.leftBtn.stop{
+	background: url("../img/07-ssss_44.png") no-repeat;
+}
+#main div.rightBtn{
+	margin-left: 45px;
+	background: url("../img/07-ssss_40.png") no-repeat;
+}
+#main div.rightBtn:active{
+	background: url("../img/07-ssss_45.png") no-repeat;
+}
+#main div.rightBtn.stop{
+	background: url("../img/07-ssss_45.png") no-repeat;
+}
+#main div.mainCon{
+	width:744px;
+	height: 100%;
+	overflow: hidden;
+}
+#main div.mainCon div.msgOuter{
+	width:10000px;
+	height: 100%;
+	position: relative;
+}
+#main div.mainCon div.msgOuter div.msgInner{
+	width: 744px;
+	height: 100%;
+	float: left;
+}
+#main div.mainCon div.msg{
+	width: 490px;
+	height: 100%;
+	background: url("../img/07-ssss_26.png") no-repeat;
+	padding:20px 27px;
+}
+#main div.mainCon div.msg ul li{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #d7d7d7;
+	padding:0 15px;
+}
+#main div.mainCon div.msg ul li input,#main div.mainCon div.msg ul li select{
+	border: none;
+	width: 250px;
+	height: 50px;
+	line-height: 50px;
+	background: no-repeat;
+	color:#D7D7D7;
+	font-size: 18px;
+	margin-left: 30px;
+}
+#main div.mainCon div.msg div.saomiao{
+	font-size: 24px;
+	margin-top:35px;
+	line-height: 40px;
+}
+#main div.mainCon div.msg div.saomiao input{
+	width:290px;
+	height: 40px;
+	background: url("../img/07-ssss_51.png") no-repeat;
+	margin:0 3px;
+	padding:0 10px;
+	color:#D7D7D7;
+	font-size: 20px;
+}
+#main div.mainCon div.msg div.saomiao button{
+	width: 76px;
+	height: 46px;
+	background: url("../img/07-ssss_45-18.png") no-repeat;
+}
+#main div.mainCon div.photo{
+	width:254px;
+	height: 100%;
+	background: url("../img/07-ssss_27.png") no-repeat;
+}
+#main div.mainCon div.photo div.phototop{
+	margin-top:34px;
+}
+#main div.mainCon div.photo div.photoImg{
+	margin-top:22px;
+	width:180px;
+	height: 222px;
+	background: url("../img/07-ssss_34.png") no-repeat;
+	margin:22px 0px 0 30px;
+}
+#footNumber{
+	position: relative;
+}
+#footNumber img{
+	margin-top:-16px;
+	margin-right: 10px;
+}
+#footNumber div.totleBody{
+	position: absolute;
+	top:7px;
+	right: 86px;
+	font-size: 30px;
+	color:#06fdfe ;
+}
+/*投影仪动画*/
+#projector{
+	position: fixed;
+	bottom: -200px;
+	left: 60px;
+	width:230px;
+	z-index: -10;
+}
+#projector img{
+	width: 100%;
+}
+#projector-bg{
+	width:0;
+	height:0;
+	background: url("../img/07-sss.png") no-repeat left bottom;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: -9;
+}
+
+
